@@ -1,0 +1,11 @@
+{
+  "name": "SOYROBINLION",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SOYROBINLION — static futuristic portfolio. Pure HTML, CSS, and vanilla JavaScript. No frameworks, no bundling.",
+  "scripts": {
+    "build": "node scripts/verify.js",
+    "dev": "python3 -m http.server 8000",
+    "preview": "python3 -m http.server 8000"
+  }
+}

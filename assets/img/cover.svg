@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630">
+      <stop offset="0" stop-color="#05060a"/>
+      <stop offset="1" stop-color="#0a0e16"/>
+    </linearGradient>
+    <linearGradient id="t" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="0.5" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <radialGradient id="g1" cx="0.8" cy="0" r="0.8">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#g1)"/>
+  <path d="M540 250 L660 250 L660 360 Q660 400 600 400 Q540 400 540 360 Z" fill="none" stroke="url(#t)" stroke-width="4"/>
+  <text x="600" y="470" font-family="Space Grotesk, sans-serif" font-size="72" font-weight="700" text-anchor="middle" fill="url(#t)">SOYROBINLION</text>
+  <text x="600" y="520" font-family="monospace" font-size="22" text-anchor="middle" fill="#8a94a7">Portafolio digital futurista</text>
+</svg>
