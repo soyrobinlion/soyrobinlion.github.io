@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre mí — ROBIN LION</title>
+
+    <link rel="stylesheet" href="../../assets/css/styles.css" />
+    <script>
+      document.documentElement.classList.remove("no-js");
+      document.documentElement.classList.add("js");
+    </script>
+  </head>
+
+  <body>
+    <main>
+      <section class="section" aria-labelledby="repos-title">
+        <div class="section-head reveal">
+          <span class="section-index">03</span>
+          <h2 id="repos-title">Código y repositorios</h2>
+        </div>
+
+        <p class="section-note reveal">
+          El código es parte del proceso: experimentar, resolver problemas,
+          construir herramientas y mejorar con cada iteración. Explora mis
+          repositorios para conocer lo que comparto en GitHub.
+        </p>
+
+        <div class="repos-wrap reveal">
+          <div class="repo-card" id="repo-grid" aria-live="polite">
+            <!-- Las tarjetas de repositorios se inyectan aquí si la API pública responde. -->
+          </div>
+
+          <noscript>
+            <div class="repo-fallback">
+              <p>
+                JavaScript está desactivado. Puedes explorar todos mis
+                repositorios directamente en GitHub.
+              </p>
+              <a
+                href="https://github.com/soyrobinlion?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-primary"
+                >Explorar repositorios</a
+              >
+            </div>
+          </noscript>
+
+          <div class="repo-fallback" id="repo-fallback" hidden>
+            <p>
+              No se pudieron cargar los repositorios automáticamente. Accede a
+              mi perfil para consultar los repositorios disponibles.
+            </p>
+            <a
+              href="https://github.com/soyrobinlion?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary"
+              >Ver repositorios en GitHub</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="../../assets/js/main.js" defer></script>
+  </body>
+</html>

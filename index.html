@@ -80,275 +80,74 @@
         </button>
 
         <ul class="nav-menu" id="nav-menu">
-          <li><a href="#about">Sobre mí</a></li>
-          <li><a href="#universe">Tecnología</a></li>
-          <li><a href="#repos">Repositorios</a></li>
-          <li><a href="#connect">GitHub</a></li>
+          <li><a href="#inicio" data-view="home">Home</a></li>
+          <li><a href="#sobre-mi" data-view="about">Sobre mí</a></li>
+          <li><a href="#tecnologia" data-view="technology">Tecnología</a></li>
+          <li>
+            <a href="#repositorios" data-view="repositories">Repositorios</a>
+          </li>
+          <li><a href="#github" data-view="GitHub">GitHub</a></li>
         </ul>
       </nav>
     </header>
 
     <main id="main">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-inner">
-          <p class="eyebrow reveal">
-            <span class="dot"></span> SOFTWARE DEVELOPER · FULL STACK
-          </p>
-
-          <h1 id="hero-title" class="hero-title reveal">
-            <span class="hero-line">Del código a las</span>
-            <span class="hero-line gradient-text">ideas que cobran vida.</span>
-          </h1>
-
-          <p class="hero-sub reveal">
-            Soy SOYROBINLION, desarrollador de software Full Stack. Me interesa
-            construir experiencias digitales, desarrollar soluciones
-            tecnológicas y transformar ideas en software. Esta es mi Home
-            personal de GitHub: un espacio para explorar mi universo tecnológico
-            y descubrir el código que comparto.
-          </p>
-
-          <div class="hero-actions reveal">
-            <a
-              href="https://github.com/soyrobinlion?tab=repositories"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="btn btn-primary"
-            >
-              Explorar mi código
-              <svg
-                viewBox="0 0 24 24"
-                width="18"
-                height="18"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                aria-hidden="true"
-              >
-                <path d="M7 17L17 7M9 7h8v8" />
-              </svg>
-            </a>
-
-            <a
-              href="https://github.com/soyrobinlion"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="btn btn-ghost"
-            >
-              Ver perfil de GitHub
-              <svg
-                viewBox="0 0 24 24"
-                width="18"
-                height="18"
-                fill="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  d="M12 2C6.48 2 2 6.58 2 12.25c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.49 0-.24-.01-.88-.01-1.73-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.36 9.36 0 0112 6.84c.85 0 1.71.12 2.51.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.26 10.26 0 0022 12.25C22 6.58 17.52 2 12 2z"
-                />
-              </svg>
-            </a>
-          </div>
-        </div>
-
-        <div class="hero-scroll" aria-hidden="true">
-          <span class="scroll-line"></span>
-        </div>
-      </section>
-
-      <section class="section" id="about" aria-labelledby="about-title">
-        <div class="section-head reveal">
-          <span class="section-index">01</span>
-          <h2 id="about-title">Sobre mí</h2>
-        </div>
-
-        <div class="about-grid">
-          <div class="about-card reveal">
-            <p class="about-text">
-              Soy desarrollador de software Full Stack, interesado en crear
-              aplicaciones y experiencias digitales que combinen funcionalidad,
-              diseño y tecnología. Me gusta explorar nuevas herramientas,
-              resolver problemas mediante código y aprender mientras construyo.
+      <div id="view-container">
+        <section id="inicio" class="hero" aria-labelledby="hero-title">
+          <div class="hero-inner">
+            <p class="eyebrow reveal">
+              <span class="dot"></span> SOFTWARE DEVELOPER · FULL STACK
             </p>
 
-            <p class="about-text">
-              SOYROBINLION es mi espacio personal en GitHub: aquí puedes
-              descubrir mis repositorios, explorar mi trabajo con código y
-              seguir mi evolución como desarrollador. Mi portafolio profesional
-              se encuentra en un dominio independiente.
-              <a
-                href="https://github.com/soyrobinlion"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Visita mi perfil de GitHub</a
+            <h1 id="hero-title" class="hero-title reveal">
+              <span class="hero-line">Del código a las</span>
+              <span class="hero-line gradient-text"
+                >ideas que cobran vida.</span
               >
-              para conocer mis proyectos y actividad.
+            </h1>
+
+            <p class="hero-sub reveal">
+              Soy ROBIN LION, desarrollador de software Full Stack. Me interesa
+              construir experiencias digitales, desarrollar soluciones
+              tecnológicas y transformar ideas en software. Esta es mi Home
+              personal de GitHub: un espacio para explorar mi universo
+              tecnológico y descubrir el código que comparto.
             </p>
-          </div>
 
-          <ul class="stats reveal">
-            <li>
-              <strong>FULL STACK</strong>
-              <span>Desarrollo de software</span>
-            </li>
-            <li>
-              <strong>OPEN SOURCE</strong>
-              <span>Código y colaboración</span>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <section class="section" id="universe" aria-labelledby="universe-title">
-        <div class="section-head reveal">
-          <span class="section-index">02</span>
-          <h2 id="universe-title">Universo tecnológico</h2>
-        </div>
-
-        <p class="section-note reveal">
-          Desarrollo Full Stack: interfaces, lógica de aplicaciones y
-          herramientas que conectan ideas con soluciones digitales. Este espacio
-          reúne las áreas tecnológicas que forman parte de mi recorrido.
-        </p>
-
-        <ul class="skills-grid">
-          <li class="skill-card reveal" style="--d: 3">
-            <span class="skill-icon" aria-hidden="true">
-              <svg
-                viewBox="0 0 24 24"
-                width="28"
-                height="28"
-                fill="currentColor"
-                aria-hidden="true"
-              >
-                <path
-                  d="M12 2C6.48 2 2 6.58 2 12.25c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.49 0-.24-.01-.88-.01-1.73-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.36 9.36 0 0112 6.84c.85 0 1.71.12 2.51.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.26 10.26 0 0022 12.25C22 6.58 17.52 2 12 2z"
-                />
-              </svg>
-            </span>
-            <h3>Git y GitHub</h3>
-            <p>
-              Control de versiones, repositorios y colaboración en software.
-            </p>
-          </li>
-
-          <li class="skill-card reveal" style="--d: 4">
-            <span class="skill-icon" aria-hidden="true">
-              <svg
-                viewBox="0 0 24 24"
-                width="28"
-                height="28"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.6"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <circle cx="12" cy="12" r="9" />
-                <path d="M3 12h18M12 3a14 14 0 010 18M12 3a14 14 0 000 18" />
-              </svg>
-            </span>
-            <h3>Frontend</h3>
-            <p>Interfaces web, experiencia de usuario y diseño responsive.</p>
-          </li>
-
-          <li class="skill-card reveal" style="--d: 5">
-            <span class="skill-icon" aria-hidden="true">
-              <svg
-                viewBox="0 0 24 24"
-                width="28"
-                height="28"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="1.6"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M12 3v18M5 8l7-5 7 5M5 16l7 5 7-5" />
-              </svg>
-            </span>
-            <h3>Backend</h3>
-            <p>Lógica de negocio, servicios y desarrollo de aplicaciones.</p>
-          </li>
-        </ul>
-      </section>
-
-      <section class="section" id="repos" aria-labelledby="repos-title">
-        <div class="section-head reveal">
-          <span class="section-index">03</span>
-          <h2 id="repos-title">Código y repositorios</h2>
-        </div>
-
-        <p class="section-note reveal">
-          El código es parte del proceso: experimentar, resolver problemas,
-          construir herramientas y mejorar con cada iteración. Explora mis
-          repositorios para conocer lo que comparto en GitHub.
-        </p>
-
-        <div class="repos-wrap reveal">
-          <div class="repo-card" id="repo-grid" aria-live="polite">
-            <!-- Las tarjetas de repositorios se inyectan aquí si la API pública responde. -->
-          </div>
-
-          <noscript>
-            <div class="repo-fallback">
-              <p>
-                JavaScript está desactivado. Puedes explorar todos mis
-                repositorios directamente en GitHub.
-              </p>
+            <div class="hero-actions reveal">
               <a
                 href="https://github.com/soyrobinlion?tab=repositories"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="btn btn-primary"
-                >Explorar repositorios</a
               >
-            </div>
-          </noscript>
+                Explorar mi código
+                <svg
+                  viewBox="0 0 24 24"
+                  width="18"
+                  height="18"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M7 17L17 7M9 7h8v8" />
+                </svg>
+              </a>
 
-          <div class="repo-fallback" id="repo-fallback" hidden>
-            <p>
-              No se pudieron cargar los repositorios automáticamente. Accede a
-              mi perfil para consultar los repositorios disponibles.
-            </p>
-            <a
-              href="https://github.com/soyrobinlion?tab=repositories"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="btn btn-primary"
-              >Ver repositorios en GitHub</a
-            >
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="connect" aria-labelledby="connect-title">
-        <div class="section-head reveal">
-          <span class="section-index">04</span>
-          <h2 id="connect-title">Conectemos en GitHub</h2>
-        </div>
-
-        <div class="contact-wrap reveal">
-          <p class="contact-text">
-            ¿Te interesa el desarrollo de software, la tecnología o el código
-            abierto? Visita mi perfil para explorar mis repositorios, seguir mis
-            proyectos y descubrir en qué estoy trabajando.
-          </p>
-
-          <ul class="contact-links">
-            <li>
               <a
                 href="https://github.com/soyrobinlion"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="contact-pill"
+                class="btn btn-ghost"
               >
+                Ver perfil de GitHub
                 <svg
                   viewBox="0 0 24 24"
-                  width="20"
-                  height="20"
+                  width="18"
+                  height="18"
                   fill="currentColor"
                   aria-hidden="true"
                 >
@@ -356,16 +155,15 @@
                     d="M12 2C6.48 2 2 6.58 2 12.25c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.49 0-.24-.01-.88-.01-1.73-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.36 9.36 0 0112 6.84c.85 0 1.71.12 2.51.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.26 10.26 0 0022 12.25C22 6.58 17.52 2 12 2z"
                   />
                 </svg>
-                @soyrobinlion
               </a>
-            </li>
-          </ul>
+            </div>
+          </div>
 
-          <p class="contact-note">
-            Tecnología, aprendizaje continuo y desarrollo de software.
-          </p>
-        </div>
-      </section>
+          <div class="hero-scroll" aria-hidden="true">
+            <span class="scroll-line"></span>
+          </div>
+        </section>
+      </div>
     </main>
 
     <footer class="site-footer">
@@ -381,8 +179,9 @@
           target="_blank"
           rel="noopener noreferrer"
           class="back-top"
-          >Mi GitHub ↗</a
         >
+          Mi GitHub ↗
+        </a>
       </div>
     </footer>
 
