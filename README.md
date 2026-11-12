@@ -7,16 +7,14 @@ Perfil oficial: <https://github.com/soyrobinlion>
 ## Propósito
 
 - Presentar la identidad digital SOYROBINLION.
-- Explorar intereses tecnológicos mediante tarjetas visuales.
+- Explorar intereses tecnológicos.
 - Descubrir repositorios públicos (vía API pública de GitHub, con fallback honesto).
 - Conectar con el perfil de GitHub.
 
-## Tecnologías
-
+## Tecnologías Utilizadas para esta Page 
 Exclusivamente HTML5, CSS3 y JavaScript nativo. Sin frameworks, sin dependencias y sin compilación.
 
 ## Estructura
-
 ```
 .
 ├── index.html
@@ -32,32 +30,67 @@ Exclusivamente HTML5, CSS3 y JavaScript nativo. Sin frameworks, sin dependencias
 └── .nojekyll
 ```
 
-## Ejecución local
 
-```bash
-python3 -m http.server 8000
-```
 
-Abre <http://localhost:8000>. No requiere `npm install` ni ningún servidor Node.js.
+<h1 align="center">Hi , I'm SOYROBINLION</h1>
 
-## Publicación en GitHub Pages
+<h3 align="center">Full-Stack Software Developer</h3>
 
-1. Sube el contenido a la rama principal del repositorio.
-2. En GitHub: **Settings → Pages**.
-3. Selecciona la rama principal y la carpeta raíz (`/`).
-4. El archivo `.nojekyll` evita el procesado con Jekyll.
+<p align="center">
+  Building modern, scalable and maintainable web and mobile applications.
+</p>
 
-## Características
+---
 
-- Diseño futurista, responsive (320 px → escritorio) y accesible.
-- Fondo animado en Canvas que respeta `prefers-reduced-motion`.
-- **Reveal con mejora progresiva:** el contenido es visible por defecto; solo se oculta temporalmente cuando JavaScript está activo. Si JS falla, todo se muestra.
-- Menú móvil accesible (Escape, clic fuera, navegación por teclado).
-- Carga opcional de repositorios desde la API pública de GitHub. Si no hay red o la API falla, se muestra un enlace directo al perfil.
-- Año actual automático en el footer.
+### About Me
 
-## Personalización
+- Full-Stack Software Developer.
+- Interested in software architecture and scalable applications.
+- Focused on API development and modern UI/UX.
+- Passionate about technology and continuous learning.
 
-- **Universo tecnológico:** edita las tarjetas en la sección `#universe` de `index.html`.
-- **Colores:** modifica las variables CSS en `:root` (`assets/css/styles.css`).
-- **Usuario de GitHub:** cambia `GH_USER` en `assets/js/main.js` si cambia de usuario.
+### Technologies & Tools
+
+**Frontend**
+- React
+- Next.js
+- React Native
+- TypeScript
+
+**Backend**
+- Node.js
+- NestJS
+- Express
+- Laravel
+- PHP
+
+**Databases**
+- PostgreSQL
+- Oracle
+- MySQL
+
+**DevOps & Tools**
+- Git
+- GitHub
+- Linux
+- Docker
+- Containers
+- Deployment
+
+### Areas of Interest
+
+- Software Architecture
+- REST API Development
+- Scalable Applications
+- Clean Code
+- UI/UX Design
+- Performance Optimization
+
+---
+
+<p align="center">
+  <i>Building software with purpose, quality and continuous improvement.</i>
+</p>
+
+
+
